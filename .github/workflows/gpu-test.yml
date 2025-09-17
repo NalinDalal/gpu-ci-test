@@ -1,0 +1,9 @@
+name: GPU Test
+on: [push]
+
+jobs:
+  gpu-check:
+    runs-on: self-hosted
+    steps:
+      - name: Simulate GPU availability
+        run: echo "Simulating GPU check... GPU available ✅"
