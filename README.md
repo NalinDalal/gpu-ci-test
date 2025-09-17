@@ -53,3 +53,7 @@ jobs:
       - name: Simulate GPU availability
         run: echo "Simulating GPU check... GPU available ✅"
 ```
+
+
+[![GPU Test](https://github.com/NalinDalal/gpu-ci-test/actions/workflows/gpu-test.yml/badge.svg)](https://github.com/NalinDalal/gpu-ci-test/actions/workflows/gpu-test.yml)
+
